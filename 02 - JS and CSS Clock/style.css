@@ -18,7 +18,7 @@ body {
 .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 10px solid white;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
@@ -46,4 +46,9 @@ body {
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1.98);
+}
+
+.second-hand{
+    background: crimson;
+    height: 3px;
 }
